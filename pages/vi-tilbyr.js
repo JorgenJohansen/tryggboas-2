@@ -4,12 +4,12 @@ import BlogContent from "@/components/BlogContent";
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home({pages}) {
+export default function ViTilbyr({pages}) {
   console.log(pages);
   return (
     <>
-      <h1 className='font-bold p-4 m-4'>{pages[0].title}</h1> 
-      <p className='p-4 m-4'><BlogContent content={pages[0].content} /></p>
+      <h1 className='font-bold p-4 m-4'>{pages[1].title}</h1> 
+      <p className='p-4 m-4'><BlogContent content={pages[1].content} /></p>
     </>
     
   )
